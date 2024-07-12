@@ -60,7 +60,7 @@ const data = [
       img: "../picture/Data_picture/9.jpeg",
       name: "김기태 선생님",
       price: "1,000,000원",
-      write: "기태쌤과 함께하는 자율주행 차 만들기",
+      write: "기태쌤과 함께하는 자율주행 만들기",
     },
     {
       id: 10,

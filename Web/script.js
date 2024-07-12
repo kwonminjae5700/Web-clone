@@ -17,7 +17,7 @@ const data = [
       id: 3,
       img: "../picture/Data_picture/3.png",
       name: "진예빈 선생님",
-      price: "890,000",
+      price: "890,000원",
       write: "예빈쌤과 함께하는 비속어 배우기",
     },
     {

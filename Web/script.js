@@ -1,45 +1,45 @@
 const data = [
     {
       id: 1,
-      img: "../assets/kitty.png",
-      name: "고양이 기타",
-      price: "10,000원",
-      address: "부산 기장군 가락동",
+      img: "../picture/Data_picture/1.jpeg",
+      name: "이경숙 선생님",
+      price: "가격 측정 불가",
+      write: "경숙쌤과 함께하는 충청도 드라이브",
     },
     {
       id: 2,
-      img: "../assets/AirPod.png",
-      name: "완전 새 에어팟",
-      price: "22,000원",
-      address: "부산 양정동",
+      img: "../picture/Data_picture/2.jpeg",
+      name: "이정하 선생님",
+      price: "1,000,000원",
+      write: "정하쌤과 함께하는 배구 게임",
     },
     {
       id: 3,
-      img: "../assets/laptop.png",
-      name: "중고 맥북",
-      price: "980,000원",
-      address: "서울 강남구 삼성동",
+      img: "../picture/Data_picture/3.png",
+      name: "진예빈 선생님",
+      price: "890,000",
+      write: "예빈쌤과 함께하는 비속어 배우기",
     },
     {
       id: 4,
-      img: "../assets/phone.png",
-      name: "스마트폰",
-      price: "800,000원",
-      address: "서울 종로구 종로1가",
+      img: "../picture/Data_picture/4.jpeg",
+      name: "정종건 선생님",
+      price: "770,000원 + 병원비",
+      write: "종건쌤과 함께하는 딱밤내기",
     },
     {
       id: 5,
-      img: "../assets/headphone.png",
-      name: "헤드폰",
-      price: "36,000원",
-      address: "대구 중구 동성로",
+      img: "../picture/Data_picture/5.jpeg",
+      name: "박건우 선생님",
+      price: "100,000원",
+      write: "건우쌤과 함께하는 롤 5대5 내전",
     },
     {
       id: 6,
-      img: "../assets/ipad.png",
-      name: "아이패드",
-      price: "84,000원",
-      address: "부산 해운대구",
+      img: "../picture/Data_picture/6.jpeg",
+      name: "강은수 선생님",
+      price: "1,560,000원",
+      write: "은수쌤과 함께하는 패션쇼",
     },
     {
       id: 7,
@@ -92,7 +92,7 @@ const data = [
             <img src="${item.img}" alt="${item.name}" width="223" height="223" style="border-radius : 14px;"/>
             <p>${item.name}</p>
             <h2>${item.price}</h2>
-            <p>${item.address}</p>
+            <p>${item.write}</p>
         </div>
     `;
 });
